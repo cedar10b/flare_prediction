@@ -5,11 +5,17 @@ This repository contains the Python code for making predictions of solar flares 
 
 ### **Data pre-processing**
 Data preprocessing includes the following steps:
+
 1. Read data for flaring and non-flaring regions (3D datacubes: (time, region, feature))
+
 2. Clean data from NaNs
+
 3. Gap filling (using a local average)
+
 4. Standardization (zero median and standard deviation = 1)
+
 5. Outlier removal (changes from one time frame to the next should be smaller than 10 standard deviations)
+
 6. Standardization (after removing outliers)
 
 
