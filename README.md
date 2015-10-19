@@ -40,7 +40,7 @@ A **Support Vector Machine (SVM)** with an RBF kernel is used for the classifica
 
 
 ### **Validation**
-A **stratified repeated random subsampling** is used for validation. Stratified means that the ratio of negative to positive observations is fixed and equal to 16.5 both for training and testing. Random subsampling means that the dataset is randomly split into 2 groups, the first group contains 70% of the observations and is used for training and the second group contains 30% of the observations and is used for testing. An estimate of the True Skill Statistic is obtained at the end of this step. This process is repeated 1000 times (each time the training and testing datasets are different) to obtain a more accurate estimate of the TSS as well as its variation (the TSS error). Using this method, the True Skill Statistic is estimated at 0.786 with an error of about 0.030.
+A **stratified repeated random subsampling** is used for validation. Stratified means that the ratio of negative to positive observations is fixed and equal to 16.5 both for training and testing. Random subsampling means that the dataset is randomly split into 2 groups, the first group contains 70% of the observations and is used for training and the second group contains 30% of the observations and is used for testing. An estimate of the True Skill Statistic is obtained at the end of this step. This process is repeated 1000 times (each time the training and testing sets are different) to obtain a more accurate estimate of the TSS as well as its variation (the TSS error). Using this method, the True Skill Statistic is estimated at 0.786 with an error of about 0.030.
 
 
 
