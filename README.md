@@ -32,7 +32,7 @@ The dataset is unbalanced with a ratio of non-flaring to flaring regions of 16.5
 
 TSS = TP/P - FP/N
 
-does not depend on the ratio of non-flaring to flaring observations and therefore it is suitable for comparing results from different studies. In addition, for unbalanced datasets (much higher N than P), TSS gives higher weight to Recall than precision since the fraction FP/N will be low even if FP is relatively high. For these reasons, TSS is considered the appropriate skill metric for this problem.
+does not depend on the ratio of non-flaring to flaring observations and therefore it is suitable for comparing results from different studies. In addition, for unbalanced datasets (much higher N than P), TSS gives higher weight to recall than precision since the fraction FP/N will be low even if FP is relatively high. For these reasons, TSS is considered the appropriate skill metric for this problem.
 
 
 ### **Machine Learning Algorithm**
