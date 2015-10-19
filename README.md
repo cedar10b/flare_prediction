@@ -1,4 +1,4 @@
-# ** Solar Flare Forecasting**
+# **Solar Flare Forecasting**
 
 ### **Summary**
 This repository contains the Python code for making predictions of solar flares 24 hours in advance.
