@@ -1,7 +1,7 @@
 # **Solar Flare Forecasting**
 
 ### **Summary**
-The goal of this project is to develop a predictive model for solar flares. The model is trained using almost 5 years of observations from the Solar Dynamics Observatory. The results show that about 90% of the solar flares can be predicted 24 hours in advance but about 2/3 of the predictions are false alarms.
+The goal of this project is to develop a predictive model for solar flares. The model is trained using almost 5 years of observations from the Solar Dynamics Observatory. The results show that about 90% of the solar flares can be predicted 24 hours in advance, but about 2/3 of the predictions are false alarms.
 
 ### **Data pre-processing**
 Data preprocessing includes the following steps:
