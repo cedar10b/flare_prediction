@@ -35,6 +35,12 @@ TSS = TP/P - FP/N
 does not depend on the ratio of non-flaring to flaring observations and therefore it is suitable for comparing results from different studies. In addition, for unbalanced datasets (much higher N than P), TSS gives higher weight to Recall than precision since the fraction FP/N will be low even if FP is relatively high. For these reasons, TSS is considered the appropriate skill metric for this problem.
 
 
+### **Machine Learning Algorithm**
+A Support Vector Machine (SVM) with an RBF kernel is used for the classification. The choice of SVM is based on the following facts (a) all attributes are numerical, (b) the dataset is relatively clean without outliers,  (c) the dataset is unbalanced, (d) the decision boundary is probably highly nonlinear. Decision tree based methods (Random Forests, Gradient Boosting etc) are more suitable for datasets that have many categorical features or may have many outliers. Linear methods such as logistic regression have poor performance when the true decision boundary is highly nonlinear. In addition, SVM has a very natural way to counterbalance the high number of negative observations by adjusting the weights of each class. Here, the weight of positive class is set to 16.5 because the negative class has 16.5 times more observations. The parameters C and gamma were chosen with the validation method described below.
+
+
+### **Validation**
+
 
 
 
